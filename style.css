@@ -2,8 +2,8 @@
 *, *::before, *::after{
 	box-sizing: border-box;
 	/*Times New Roman is the first found to be used but the second argument selects sans-serif if the the default font is not found*/
-	font-family: 'Times New Roman', sans-serif;
-	font-weight: normal;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
 }
 
 /*Apply Background*/
@@ -11,7 +11,7 @@ body{
 	/*We remove padding and margin so that our background fills our entire screen*/
 	padding: 0;
 	margin: 0;
-	background: linear-gradient(to left, #474747,#000000)
+	background-image: url("https://image.freepik.com/free-vector/diwali-indian-mandala-purple-background_53876-117338.jpg")
 	/*Q. Why does chosing the gradient to the top makes the colors banded?*/
 }
 
@@ -38,7 +38,7 @@ body{
 
 /*Change color of the button on hover*/
 .calculator-grid > button:hover {
-	background-color: rgba(255,255,255,.90)
+	background-color: rgba(255,255,255,1.00)
 }
 
 /*Make the span two classes to span to two columns*/
